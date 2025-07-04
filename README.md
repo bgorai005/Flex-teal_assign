@@ -2,73 +2,22 @@
 ## Problem Statement
 Solve the following Initial Value Problem (IVP) using the Euler method:
 
-𝑑
-𝑦
-𝑑
-𝑡
-=
-cos
-⁡
-(
-𝑡
-)
-−
-𝑦
-,
-𝑦
-(
-0
-)
-=
-1
-,
-0
-≤
-𝑡
-≤
-5
-dt
-dy
-​
- =cos(t)−y,y(0)=1,0≤t≤5
-Approximate the solution using Euler’s method for a user-defined number of iterations n.
+\[
+\frac{dy}{dt} = \cos(t) - y,\quad y(0) = 1,\quad \text{for } t \in [0, 5]
+\]
 
-Compare it with the analytical solution:
+### ✅ Objectives:
+- Implement **Euler's method** to approximate the solution numerically.
+- Compare the numerical solution against the **exact analytical solution**:
 
-𝑦
-(
-𝑡
-)
-=
-1
-2
-(
-cos
-⁡
-(
-𝑡
-)
-+
-sin
-⁡
-(
-𝑡
-)
-+
-𝑒
-−
-𝑡
-)
-y(t)= 
-2
-1
-​
- (cos(t)+sin(t)+e 
-−t
- )
-Export results to CSV
+\[
+y(t) = \frac{1}{2} \left( \cos(t) + \sin(t) + e^{-t} \right)
+\]
 
-Generate a plot using the plotters crate.
+- Allow the user to choose the number of iterations `n`.
+- Save the results to a **CSV file** named based on the iteration count (e.g., `iteration_20.csv`).
+- Generate a **plot** comparing the Euler approximation and exact solution, saved as `iteration_20.png` inside the `output/` directory.
+
 
 ## Project Structure
 
