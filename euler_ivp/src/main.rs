@@ -1,11 +1,13 @@
 mod solver;
 mod exact;
 mod utils;
+mod plot;
 
 use std::io;
 use solver::euler;
 use exact::exact_solution;
 use utils::write_csv;
+use plot::plot_solutions;
 
 fn main() {
     // Get user input for number of steps
@@ -31,9 +33,13 @@ fn main() {
     }
 
     // Save to CSV
-    if let Err(e) = write_csv("output/euler_solution.csv", &t, &y, &y_exact) {
-        eprintln!("Error writing CSV: {}", e);
-    } else {
-        println!("\nCSV saved to 'output/euler_solution.csv'");
+    if let Err(e) = write_csv(n, &t, &y, &y_exact) {
+    eprintln!("Error writing CSV: {}", e);
     }
+
+    if let Err(e) = plot_solutions(n, &t, &y, &y_exact) {
+    eprintln!("Plotting failed: {}", e);
+    }
+
+
 }
