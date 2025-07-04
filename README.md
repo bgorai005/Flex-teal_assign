@@ -41,12 +41,12 @@ euler_ivp/
 
 
 ##  How to Run
-- Step 1
+- Step -1
 ```
 git clone https://github.com/your-username/euler_ivp.git
 cd euler_ivp
 ```
--step 2
+- Step- 2
 ```
 cargo build
 ```
