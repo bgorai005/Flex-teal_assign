@@ -3,17 +3,17 @@
 Solve the following Initial Value Problem (IVP) using the Euler method:
 ```math
 
-\[
+
 \frac{dy}{dt} = \cos(t) - y,\quad y(0) = 1,\quad \text{for } t \in [0, 5]
-\]
+
 ```
 ### ✅ Objectives:
 - Implement **Euler's method** to approximate the solution numerically.
 - Compare the numerical solution against the **exact analytical solution**:
 ```math
-\[
+
 y(t) = \frac{1}{2} \left( \cos(t) + \sin(t) + e^{-t} \right)
-\]
+
 ```
 - Allow the user to choose the number of iterations `n`.
 - Save the results to a **CSV file** named based on the iteration count (e.g., `iteration_20.csv`).
