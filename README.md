@@ -79,6 +79,36 @@ cargo run
  Enter the number of iterations (n):
 100
 ```
+
+---
+## Output
+
+After running the program, the following output files will be generated inside the `output/` directory:
+
+### CSV File
+- **File name:** `iteration_<n>.csv` (e.g., `iteration_100.csv`)
+- **Contents:** A table comparing the numerical and exact solutions at each time step.
+
+| t     | y_numerical | y_exact  | error       |
+|-------|-------------|----------|-------------|
+| 0.0   | 1.0         | 1.0      | 0.0         |
+| 0.05  | 0.951...    | 0.951... | 0.0002...   |
+| ...   | ...         | ...      | ...         |
+
+This file can be opened in any spreadsheet software (e.g., Excel) or used for further analysis.
+
+### Plot File
+- **File name:** `iteration_<n>.png` (e.g., `iteration_100.png`)
+- **Contents:** A line plot comparing:
+  - Euler’s method approximation (in blue)
+  - Exact analytical solution (in red)
+
+The plot visualizes how the Euler method approximates the solution over time and where it deviates from the exact result.
+
+---
+
+These output files are automatically saved to the `output/` folder upon successful execution.
+
 ## References
 
 
