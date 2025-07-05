@@ -83,13 +83,13 @@ cargo run
 
 
 - Rust Programming Language: [https://www.rust-lang.org](https://www.rust-lang.org)  
-  ↪ Official Rust documentation, syntax guide, and installation.
+  Official Rust documentation, syntax guide, and installation.
 
 - Plotters Crate Documentation: [https://docs.rs/plotters](https://docs.rs/plotters)  
-  ↪ Documentation for the Rust plotting library used in this project.
+   Documentation for the Rust plotting library used in this project.
 
 - CSV Crate Documentation: [https://docs.rs/csv](https://docs.rs/csv)  
-  ↪ Official docs for Rust's CSV reading/writing library.
+  Official docs for Rust's CSV reading/writing library.
 
 
 
