@@ -27,7 +27,7 @@ euler_ivp/
 ├── Cargo.toml
 ├── output/
 │   ├── iteration.csv      # CSV output file
-│   └── plot.png                # Plot comparing Euler and exact solution
+│   └── iteration.png                # Plot comparing Euler and exact solution
 └── src/
     ├── main.rs                 # Entry point: handles I/O and workflow
     ├── solver.rs               # Euler method implementation
