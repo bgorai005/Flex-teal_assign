@@ -26,7 +26,7 @@ y(t) = \frac{1}{2} \left( \cos(t) + \sin(t) + e^{-t} \right)
 euler_ivp/
 ├── Cargo.toml
 ├── output/
-│   ├── euler_solution.csv      # CSV output file
+│   ├── iteration.csv      # CSV output file
 │   └── plot.png                # Plot comparing Euler and exact solution
 └── src/
     ├── main.rs                 # Entry point: handles I/O and workflow
