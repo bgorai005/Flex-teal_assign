@@ -65,7 +65,7 @@ This project allows the user to configure the following parameters at runtime or
 git clone https://github.com/your-username/euler_ivp.git
 cd euler_ivp
 ```
-###Step- 2:Build the Project
+### Step- 2:Build the Project
 ```
 cargo build
 ```
