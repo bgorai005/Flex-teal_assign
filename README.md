@@ -94,4 +94,8 @@ cargo run
 
 
 ## Author
-Biswajit Gorai – M.Tech Mathematics and Computing, IIT Madras
+Biswajit Gorai
+
+M.Tech IMSC
+
+Department of Mathematics, IIT Madras
